@@ -1,0 +1,18 @@
+<section id="post-section">
+  <button onclick='startNewPost()'>Create new post</button>
+  {{#if posts.length}}
+  <div id="user-posts">
+    <h2>Your Posts</h2>
+    <ol>
+      {{#each posts as |post|}}
+      <li>
+          {{> post-info post}}
+          <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+      </li>
+      {{/each}}
+    </ol>
+  </div>
+  {{/if}}
+</section>
+
+<script src="/javascript/add-post.js"></script>
