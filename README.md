@@ -13,7 +13,7 @@
   npm install at root of folder
 
   ## Usage
-  Visit live site at [https://git.heroku.com/afternoon-escarpment-62466.git](https://git.heroku.com/afternoon-escarpment-62466.git). You can sign up/login, post, edit a post, and comment on posts.
+  Visit live site at [heroku](https://afternoon-escarpment-62466.herokuapp.com/). You can sign up/login, post, edit a post, and comment on posts.
 
   ## License
   This application is covered under the license Unlicense. For more info vist [http://unlicense.org/](http://unlicense.org/)
